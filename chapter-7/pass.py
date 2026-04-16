@@ -7,3 +7,5 @@ i = 1
 while (i<51):
     print(i)
     i+=1
+
+    # pass is a null statement in python, it is used when we have to write some code but we dont want to write it right now, it is a placeholder for future code
