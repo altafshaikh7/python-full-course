@@ -20,6 +20,7 @@ def fahrenheit_to_celsius (f):
     return 5*(f-32)/9
 print (f"The temperature in Celsius is {fahrenheit_to_celsius(f)}")
 
+
 #write a python program using function to convert celsius to fahrenheit
 c = int(input("Enter the temperature in Celsius: "))
 f = (c*9/5)+32
