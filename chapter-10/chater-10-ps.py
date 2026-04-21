@@ -1,16 +1,16 @@
 
-# class progrmmer:
-#     comapny="microsoft"
-#     def __init__(self,name,salary,pincode):
-#         self.name=name
-#         self.salary=salary
-#         self.pincode=pincode
+class progrmmer:
+    comapny="microsoft"
+    def __init__(self,name,salary,pincode):
+        self.name=name
+        self.salary=salary
+        self.pincode=pincode
 
-# a=progrmmer("harry",1200000,411057)
-# print(a.name,a.salary,a.pincode,a.comapny) 
+a=progrmmer("harry",1200000,411057)
+print(a.name,a.salary,a.pincode,a.comapny) 
 
-# r=progrmmer("rohan",1000000,32100)
-# print(r.name,r.salary,r.pincode,r.comapny)
+r=progrmmer("rohan",1000000,32100)
+print(r.name,r.salary,r.pincode,r.comapny)
 
 
 
