@@ -1,4 +1,5 @@
 
+# Q.1
 class progrmmer:
     comapny="microsoft"
     def __init__(self,name,salary,pincode):
@@ -13,7 +14,7 @@ r=progrmmer("rohan",1000000,32100)
 print(r.name,r.salary,r.pincode,r.comapny)
 
 
-
+# Q.2
 class calculator:
     def __init__(self,n):
         self.n=n
@@ -33,7 +34,7 @@ a.square()
 a.cube()      
 a.squareroot()     
 
-
+# Q.3
 class demo :
       a=4
 o=demo()
@@ -41,3 +42,8 @@ print(o.a) #print the class attribute because instance attributeis not present
 o.a=0 
 print(o.a) #print the instance attribute because instance attribute is present
 print(demo.a)
+
+
+
+
+
