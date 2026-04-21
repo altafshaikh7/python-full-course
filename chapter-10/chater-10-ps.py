@@ -33,6 +33,7 @@ a.square()
 a.cube()      
 a.squareroot()     
 
+
 class demo :
       a=4
 o=demo()
