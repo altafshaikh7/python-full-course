@@ -4,21 +4,22 @@ class Employee:
     salary=1200000
 
 
-    def __init__(self):
+    def __init__(self, name, salary, language):  #dunder method which is automatically called when we create an object of the class
+        self.name = name
+        self.salary = salary
+        self.language = language
         print("i am creating an object")
 
     def getinfo(self):
         print(f"the language is {self.language}.the salary is {self.salary}")
-    
+
+    @staticmethod
     def greet(self):
         print("good morning")
         
 
-harry =Employee()   
-harry.language="JavaScript"  #This is a instance  attribute
-print( harry.language,harry.salary)
+harry =Employee("Altaf",1300000,"JavaScript") 
+# harry.name="harry"  #This is a instance  attribute   
+print( harry.name ,harry.salary,harry.language)
 
-
-# harry.getinfo()  
-harry.greet()
-Employee.getinfo(harry)
+# rohan = Employee()
