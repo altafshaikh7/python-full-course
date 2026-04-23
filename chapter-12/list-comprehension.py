@@ -8,3 +8,4 @@ squaredlist=[]
 #this can be simplified using list comprehension 
 squaredlist=[i*i for i in mylist]
 print(squaredlist)
+
